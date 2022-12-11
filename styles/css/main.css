@@ -117,6 +117,12 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 
+.card-img-top {
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 input:focus {
   color: #212529;
   background-color: #fff;
